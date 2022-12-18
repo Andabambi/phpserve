@@ -4,6 +4,7 @@ if(isset($_SESSION['username']))
 {
     header('location:adminlogin.php');
 }
+
 if(isset($_POST['signup'])){
 $seats=  $POST['seats'];
 $model=  $POST['model'];
